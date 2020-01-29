@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Window1" Height="750" Width="1000" KeyDown="Window_KeyDown" >
     <Canvas  Width="990" Height="726">
-
         <MediaElement Height="716" Width="990" Source="C:\Users\azake\Documents\GitHub\Snake-WPF-Game\Snake_Game\Snake\Snake_mond\107042.gif"/>
         <Rectangle Canvas.Left="236" Canvas.Top="561" Height="25" Name="ellipse5" Stroke="Black" Width="25" Fill="Green"></Rectangle>
         <Rectangle Canvas.Left="236" Canvas.Top="586" Height="25" Name="ellipse6" Stroke="Black" Width="25" Fill="Green"></Rectangle>
@@ -15,6 +14,7 @@
         <Rectangle Canvas.Left="236" Canvas.Top="536" Height="25" Name="ellipse4" Stroke="Black" Width="25" Fill="Green"></Rectangle>
         <Rectangle Canvas.Left="442" Canvas.Top="224" Height="25" Name="ellipse9" Stroke="Goldenrod" Width="25" Fill="Red" ></Rectangle>
         <Label Content="PKT = 0" Canvas.Left="814" Canvas.Top="10" Height="54" Name="label1" Width="166" FontSize="32" FontFamily="Verdana" Foreground="Black"></Label>
+
 
     </Canvas>
 </Window>
