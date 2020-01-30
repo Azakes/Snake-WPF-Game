@@ -39,7 +39,7 @@ namespace Snake_mond
                 if (move == "Left")
                 {
                     randomz();
-                    double e1l = Canvas.GetLeft(ellipse1);//get
+                    double e1l = Canvas.GetLeft(ellipse1);
                     double e1t = Canvas.GetTop(ellipse1);
                     double e2l = Canvas.GetLeft(ellipse2);
                     double e2t = Canvas.GetTop(ellipse2);
@@ -54,7 +54,7 @@ namespace Snake_mond
                     double e7t = Canvas.GetTop(ellipse7);
                     double e7l = Canvas.GetLeft(ellipse7);
                     
-                    Canvas.SetLeft(ellipse1,  e1l-25);//set                    
+                    Canvas.SetLeft(ellipse1,  e1l-25);                  
                     Canvas.SetLeft(ellipse2, e1l);
                     Canvas.SetTop(ellipse2,e1t);                    
                     Canvas.SetLeft(ellipse3,e2l);
@@ -74,7 +74,7 @@ namespace Snake_mond
                 else if (move == "Right")
                 {
                     randomz();
-                    double e1l = Canvas.GetLeft(ellipse1);//get
+                    double e1l = Canvas.GetLeft(ellipse1);
                     double e1t = Canvas.GetTop(ellipse1);
                     double e2l = Canvas.GetLeft(ellipse2);
                     double e2t = Canvas.GetTop(ellipse2);
@@ -89,7 +89,7 @@ namespace Snake_mond
                     double e7t = Canvas.GetTop(ellipse7);
                     double e7l = Canvas.GetLeft(ellipse7);
 
-                    Canvas.SetLeft(ellipse1,e1l + 25);//set
+                    Canvas.SetLeft(ellipse1,e1l + 25);
                     Canvas.SetLeft(ellipse2,e1l);
                     Canvas.SetTop(ellipse2,e1t);
                     Canvas.SetLeft(ellipse3, e2l);
@@ -110,7 +110,7 @@ namespace Snake_mond
                 else if(move == "Up")
                 {
                     randomz();
-                    double e1l = Canvas.GetLeft(ellipse1);//get
+                    double e1l = Canvas.GetLeft(ellipse1);
                     double e1t = Canvas.GetTop(ellipse1);
                     double e2l = Canvas.GetLeft(ellipse2);
                     double e2t = Canvas.GetTop(ellipse2);
@@ -125,7 +125,7 @@ namespace Snake_mond
                     double e7t = Canvas.GetTop(ellipse7);
                     double e7l = Canvas.GetLeft(ellipse7);
 
-                    Canvas.SetTop(ellipse1, e1t - 25);//set
+                    Canvas.SetTop(ellipse1, e1t - 25);
                     Canvas.SetLeft(ellipse2, e1l);
                     Canvas.SetTop(ellipse2, e1t);
                     Canvas.SetLeft(ellipse3, e2l);
@@ -145,7 +145,7 @@ namespace Snake_mond
                 else if(move == "Down")
                 {
                     randomz();
-                    double e1l = Canvas.GetLeft(ellipse1);//get
+                    double e1l = Canvas.GetLeft(ellipse1);
                     double e1t = Canvas.GetTop(ellipse1);
                     double e2l = Canvas.GetLeft(ellipse2);
                     double e2t = Canvas.GetTop(ellipse2);
@@ -160,7 +160,7 @@ namespace Snake_mond
                     double e7t = Canvas.GetTop(ellipse7);
                     double e7l = Canvas.GetLeft(ellipse7);
 
-                    Canvas.SetTop(ellipse1, e1t + 25);//set
+                    Canvas.SetTop(ellipse1, e1t + 25);
                     Canvas.SetLeft(ellipse2, e1l);
                     Canvas.SetTop(ellipse2, e1t);
                     Canvas.SetLeft(ellipse3, e2l);
