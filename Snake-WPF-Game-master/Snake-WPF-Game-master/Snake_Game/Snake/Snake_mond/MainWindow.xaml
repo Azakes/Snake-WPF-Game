@@ -1,0 +1,14 @@
+﻿<Window x:Class="Snake_mond.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="800" Width="1000">
+    <Grid Background="Black">
+        <Button IsDefault="True" Content="Start" Height="80" HorizontalAlignment="Left" Margin="10,651,0,0"
+                Name="button1" VerticalAlignment="Top" Width="175" FontFamily="Forte" FontSize="40"
+                Click="button1_Click" />
+        <Button Content="Wyjście" Height="80" HorizontalAlignment="Left" Margin="813,651,0,0" Name="button2"
+                VerticalAlignment="Top" Width="175" FontFamily="Forte" FontSize="40" Click="button2_Click" />
+        <Image HorizontalAlignment="Left" Height="769" VerticalAlignment="Top" Width="992"
+               Source="4c455c90ea45a7ebdefa938f5186bd51.jpg" />
+    </Grid>
+</Window>
